@@ -2,7 +2,8 @@
 
 //- load library's --------------------------------------------------------------------------------------------------------
 #include <AS.h>																				// the asksin framework
-#include "register.h"																		// configuration sheet
+#include "register.h" // configuration sheet
+#include <power.h> // Gunnar: Braucht man das hier?
 
 //waitTimer xTmr;
 

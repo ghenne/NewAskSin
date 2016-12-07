@@ -62,7 +62,7 @@ void AS::init(void) {
 			pList->load_default();															// copy from progmem into array
 			pList->save_list();																// write it into the eeprom
 			pPeer->clear_all();
-			DBG(AS, F("AS:write_defaults, cnl:"), pCM->lstC.cnl, F(", lst:"), pCM->lstC.lst, F(", len:"), pCM->lstC.len, '\n');
+			DBG(AS, F("AS:write_defaults, cnl:"), ptr_CM[i]->lstC.cnl, F(", lst:"), ptr_CM[i]->lstC.lst, F(", len:"), ptr_CM[i]->lstC.len, '\n');
 		}
 
 		/* - First time detected

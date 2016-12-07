@@ -27,16 +27,21 @@
 */
 
 #define SER_DBG					// Main sketch debug function and messages
-//#define AS_DBG					// AskSin class debug (AS.cpp)
-//#define CC_DBG					// Communication class (CC1101.cpp)
+#define AS_DBG					// AskSin class debug (AS.cpp)
+#define CC_DBG					// Communication class (CC1101.cpp)
 #define SN_DBG					// Send class (Send.cpp)
 #define RV_DBG					// Receive class (Receive.cpp)
 
-//#define CM_DBG					// Channel Master module (cmMaster.cpp)
-//#define MN_DBG					// Maintenance channel module (cmMaintenance.cpp)
-//#define SW_DBG				// Switsch channel module (cmSwitch.cpp)
-//#define DM_DBG					// Dimmer channel module (cmDimmer.cpp)
-//#define RE_DBG					// Remote channel module (cmRemote.cpp)
+#define RV_DBG_EX				// Further explanation of received messages (Receive.cpp)
+
+#define EL_DBG				// EEprom list class (EEprom_list.cpp)
+#define EP_DBG				// EEprom peer class (EEprom_peer.cpp)
+
+#define CM_DBG					// Channel Master module (cmMaster.cpp)
+#define MN_DBG					// Maintenance channel module (cmMaintenance.cpp)
+#define SW_DBG				// Switsch channel module (cmSwitch.cpp)
+#define DM_DBG					// Dimmer channel module (cmDimmer.cpp)
+#define RE_DBG					// Remote channel module (cmRemote.cpp)
 
 
 /*
