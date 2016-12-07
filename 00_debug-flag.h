@@ -32,8 +32,6 @@
 #define SN_DBG					// Send class (Send.cpp)
 #define RV_DBG					// Receive class (Receive.cpp)
 
-#define RV_DBG_EX				// Further explanation of received messages (Receive.cpp)
-
 #define EL_DBG				// EEprom list class (EEprom_list.cpp)
 #define EP_DBG				// EEprom peer class (EEprom_peer.cpp)
 
